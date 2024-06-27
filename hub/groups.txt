@@ -1,6 +1,3 @@
-## Following convention (copied wholesale) from:
-## https://github.com/ucscGenomeBrowser/kent/blob/master/src/hg/makeDb/doc/asmHubs/groups.txt
-
 name user
 label Custom
 priority 1
@@ -17,7 +14,7 @@ priority 2
 defaultIsClosed 0
 
 name methylation
-label CpG Methylation
+label Methylation
 priority 2.25
 defaultIsClosed 1
 

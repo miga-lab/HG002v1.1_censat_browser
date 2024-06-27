@@ -1,3 +1,9 @@
+track_build/*/*.bed
+track_build/*/*.bb
+track_build/*/*.bedgraph
+track_build/*/*.bigwig
+hub/*2bit
+hub/*fasta.gz
 .idea
 .DS_Store
 scripts/*.tsv

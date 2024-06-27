@@ -1,5 +1,5 @@
-genome HG002_v1pt0
-twoBitPath hg002v1.0.fasta.2bit
+genome HG002_v1.1
+twoBitPath hg002v1.1.fasta.2bit
 trackDb trackDb.txt
 organism HG002
 description HG002

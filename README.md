@@ -1,5 +1,5 @@
 # HG002_censat_browser
-Browser setup for HG002 v1.0 CenSat annotation.
+Browser setup for HG002 v1.1 CenSat annotation.
 
 ## Instructions
 Follow the instructions in setup.sh in order:
@@ -11,5 +11,5 @@ Follow the instructions in setup.sh in order:
 ## Notes
 This browser's files are currently stored on Courtyard. To view the browser navigate to the UCSC genome browser, click the **my data** dropdown then **trackhubs**. Got to **Connected Hubs** and then enter the following URL
 ```
-http://public.gi.ucsc.edu/~juklucas/hub_1pt0/hub.txt
+http://public.gi.ucsc.edu/~jmmenend/public_html/HG002v1.1_censat_browser/hub.txt
 ```
