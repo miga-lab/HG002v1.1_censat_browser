@@ -21,7 +21,7 @@ defaultIsClosed 0
 name epigenetics
 label Epigenetics and Methylation
 priority 2.25
-defaultIsClosed 1
+defaultIsClosed 0
 
 name genes
 label Genes and Gene Predictions
