@@ -1,5 +1,7 @@
 #!/bin/bash
 
+conda activate /public/home/jmmenend/.conda/envs/ucsc-browsertools
+
 # censat annotations
 wget https://raw.githubusercontent.com/hloucks/CenSatData/refs/heads/main/HG002/v1.1/hg002v1.1.cenSatv2.0.bed
 bedToBigBed \

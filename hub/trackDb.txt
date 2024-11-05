@@ -1,5 +1,6 @@
 # cenSat
 include track_builds/cenSat/cenSat_trackDb.txt
 
-# 
+# alpha annotations
+include track_builds/asat_pjalpha_cenpb/pjalpha_cenpb_trackDb.txt
 

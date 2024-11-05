@@ -1,5 +1,5 @@
 table ASat_CENPB
-"ASat CENP-B binding sites: CENP-B predictions based on regex search of merged centromeric regions"
+"ASat CENP-B binding sites: CENP-B predictions based on regex search of merged centromeric regions in HG002v1.1"
     (
     string chrom;    "Genomic sequence name"
     uint chromStart;     "Start in genomic sequence"
