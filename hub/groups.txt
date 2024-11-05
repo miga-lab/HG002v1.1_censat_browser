@@ -18,14 +18,9 @@ label Mapping and Sequencing
 priority 2
 defaultIsClosed 0
 
-name methylation
-label Methylation
+name epigenetics
+label Epigenetics and Methylation
 priority 2.25
-defaultIsClosed 1
-
-name CDRs
-label CDR Annotations
-priority 2.5
 defaultIsClosed 1
 
 name genes

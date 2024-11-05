@@ -1,0 +1,12 @@
+track ONT_5mC
+shortLabel ONT_5mC
+longLabel ONT 5mC Methylation per CpG
+group epigenetics
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/methylation/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5mC.bigwig
+assembly track_builds/methylation/ONT_5mC_pileup.as
+type bigWig
+priority 1
