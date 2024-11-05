@@ -1,5 +1,5 @@
 table CenSat
-"Centromeric Satellite Strand Annotation v2.0"
+"HG002v1.1 Centromeric Satellite Annotation"
     (
     string chrom;    "Genomic sequence name"
     uint chromStart;     "Start in genomic sequence"
