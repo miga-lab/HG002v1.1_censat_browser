@@ -21,3 +21,11 @@ bedToBigBed \
     hg002v1.1.SatelliteStrandv2.0.bed \
     /public/groups/migalab/HG002v1.1_censat_browser/hub/hg002v1.1.fasta.2bit.sizes \
     hg002v1.1.SatelliteStrandv2.0.bb
+
+bedToBigBed \
+    -extraIndex=name \
+    -type=bed4+6 \
+    -as=cenSat_repeat_masker.as \
+    hg002v1.1.RepeatMasker.bed \
+    /public/groups/migalab/HG002v1.1_censat_browser/hub/hg002v1.1.fasta.2bit.sizes \
+    hg002v1.1.RepeatMasker.bb 
