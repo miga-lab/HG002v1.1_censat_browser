@@ -2,7 +2,7 @@
 include track_builds/cenSat/cenSat_trackDb.txt
 
 # alpha annotations
-include track_builds/asat_hor_sf/as_hor_sf_trackDB.txt
+include track_builds/asat_hor_sf_stv/as_hor_sf_stv_trackDB.txt
 include track_builds/asat_pjalpha_cenpb/pjalpha_cenpb_trackDb.txt
 
 # epigenetics and methylation
