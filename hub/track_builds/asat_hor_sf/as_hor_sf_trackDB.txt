@@ -2,7 +2,7 @@ track AS_HOR
 shortLabel A-Sat HOR
 longLabel Alpha Satellite Higher Order Repeat
 group alphaSat
-visibility dense
+visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
@@ -14,7 +14,7 @@ track AS_SF
 shortLabel A-Sat SF
 longLabel Alpha Satellite Super Family
 group alphaSat
-visibility dense
+visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
