@@ -14,6 +14,7 @@ modkit pileup \
 # awk to make bedgraph of fraction modified with coverage over 10
 awk -F "\t" -v OFS="\t" '$10 > 10 {print $1, $2, $3, $11}' "${output_5mC}" > "${output_5mC_bedgraph}"
 
+
 ### DID ABOVE FOR EACH OF THE FOLLOWING FILES
 
 # sort bedgraph
