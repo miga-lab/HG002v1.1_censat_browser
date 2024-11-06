@@ -5,6 +5,11 @@ include track_builds/cenSat/cenSat_trackDb.txt
 include track_builds/asat_hor_sf_stv/as_hor_sf_stv_trackDB.txt
 include track_builds/asat_pjalpha_cenpb/pjalpha_cenpb_trackDb.txt
 
-# epigenetics and methylation
+# methylation
 include track_builds/methylation/methylation_trackDB.txt
+
+# mappability
+include track_builds/lowMAPQ/lowMAPQ_trackDB.txt
+
+# non B-DNA 
 include track_builds/nonB_sequence/nonB_trackDB.txt

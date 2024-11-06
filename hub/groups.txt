@@ -18,8 +18,13 @@ label Mapping and Sequencing
 priority 2
 defaultIsClosed 0
 
-name epigenetics
-label Epigenetics and Methylation
+name methylation
+label Methylation
+priority 2.25
+defaultIsClosed 0
+
+name nonB
+label non-B DNA
 priority 2.25
 defaultIsClosed 0
 

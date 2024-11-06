@@ -1,12 +1,38 @@
 track ONT_5mC
 shortLabel ONT_5mC
 longLabel ONT 5mC Methylation per CpG
-group epigenetics
+group methylation
 visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
 bigDataUrl track_builds/methylation/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5mC.bigwig
 assembly track_builds/methylation/ONT_5mC_pileup.as
+type bigWig
+priority 1
+
+track ONT_5hmC
+shortLabel ONT 5hmC
+longLabel HiFi 5hmC Fraction Modified per CpG
+group methylation
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/methylation/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5hmC.bigwig
+assembly track_builds/methylation/ONT_5hmC_pileup.as
+type bigWig
+priority 1
+
+track HiFi_5mC
+shortLabel HiFi 5mC
+longLabel HiFi 5mC Fraction Modified per CpG
+group methylation
+visibility hide
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+bigDataUrl track_builds/methylation/Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5mC.bigwig
+assembly track_builds/methylation/HiFi_5mC_pileup.as
 type bigWig
 priority 1
