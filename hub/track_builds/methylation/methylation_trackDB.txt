@@ -41,7 +41,7 @@ track ONT_5mC_Reads
 shortLabel ONT 5mC Reads
 longLabel ONT 5mC Methylation on Individual Q100 Project Reads
 group methylation
-visibility full
+visibility hide
 itemRgb on
 maxItems 10000
 maxWindowToDraw 500000
@@ -53,7 +53,7 @@ track HiFi_5mC_Reads
 shortLabel HiFi 5mC Reads
 longLabel HiFi 5mC Methylation on Individual Q100 Project Reads
 group methylation
-visibility full
+visibility hide
 itemRgb on
 maxItems 10000
 maxWindowToDraw 500000

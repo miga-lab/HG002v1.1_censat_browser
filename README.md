@@ -2,10 +2,11 @@
 Browser setup for HG002 v1.1 CenSat annotation.
 
 ### Tracks I Need to Add Still:      
- * HiFi Methylation      
+ * DiMeLo Tracks     
  * ipd bigwig       
- * Fiberseq Data (nucleosome/msp/dinucleosome bigwigs)
- 
+ * Fiberseq Data (nucleosome/msp/dinucleosome bigwigs)      
+ * HorHap/CenHap          
+ * HSat SubFamily      
 
 ## Instructions
 Follow the instructions in setup.sh in order:
