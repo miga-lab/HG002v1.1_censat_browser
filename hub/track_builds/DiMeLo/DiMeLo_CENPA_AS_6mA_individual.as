@@ -1,5 +1,5 @@
-table DiMeLo_5mC_Individual_Reads
-"Individual DiMeLo CENP-A Reads with 5mC Methylation (modkit call-mods -p 0.1). BED12 generated with fibertools extract."
+table DiMeLo_6mA_AS_Individual_Reads
+"Individual DiMeLo CENP-A Adaptive Sampling Reads with 6mA Methylation (modkit call-mods -p 0.1). BED12 generated with fibertools extract."
     ( 
     string chrom;    "chromosome name"
     uint chromStart;     "Start in genomic sequence"
