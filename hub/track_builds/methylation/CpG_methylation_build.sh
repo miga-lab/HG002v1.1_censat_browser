@@ -39,3 +39,24 @@ bedGraphToBigWig \
 	/public/groups/migalab/HG002v1.1_censat_browser/hub/hg002v1.1.fasta.2bit.sizes \
 	Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5hmC.bigwig
 conda deactivate
+
+# individual reads with methylation
+sort -k1,1 -k2,2n Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bed > temp && \
+	mv temp Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bed && \
+	python3 fix_ft_extract_bed12.py Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bed Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.fix.bed
+bedToBigBed \
+    -type=bed12 \
+    -as=ONT_5mC_individual.as \
+	Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.fix.bed \
+	/public/groups/migalab/HG002v1.1_censat_browser/hub/hg002v1.1.fasta.2bit.sizes \
+	Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bb
+
+sort -k1,1 -k2,2n Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bed > temp && \
+	mv temp Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bed && \
+	python3 fix_ft_extract_bed12.py Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bed Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.fix.bed
+bedToBigBed \
+    -type=bed12 \
+    -as=HiFi_5mC_individual.as \
+	Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.fix.bed \
+	/public/groups/migalab/HG002v1.1_censat_browser/hub/hg002v1.1.fasta.2bit.sizes \
+	Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bb

@@ -1,5 +1,5 @@
-track ONT_5mC
-shortLabel ONT_5mC
+track ONT_5mC_Pileup
+shortLabel ONT 5mC Pileup
 longLabel ONT 5mC Methylation per CpG
 group methylation
 visibility hide
@@ -11,9 +11,9 @@ assembly track_builds/methylation/ONT_5mC_pileup.as
 type bigWig
 priority 1
 
-track ONT_5hmC
-shortLabel ONT 5hmC
-longLabel HiFi 5hmC Fraction Modified per CpG
+track ONT_5hmC_Pileup
+shortLabel ONT 5hmC Pileup
+longLabel ONT 5hmC Fraction Modified per CpG
 group methylation
 visibility hide
 itemRgb on
@@ -24,8 +24,8 @@ assembly track_builds/methylation/ONT_5hmC_pileup.as
 type bigWig
 priority 1
 
-track HiFi_5mC
-shortLabel HiFi 5mC
+track HiFi_5mC_Pileup
+shortLabel HiFi 5mC Pileup
 longLabel HiFi 5mC Fraction Modified per CpG
 group methylation
 visibility hide
@@ -35,4 +35,28 @@ maxWindowToDraw 500000000
 bigDataUrl track_builds/methylation/Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5mC.bigwig
 assembly track_builds/methylation/HiFi_5mC_pileup.as
 type bigWig
+priority 1
+
+track ONT_5mC_Reads
+shortLabel ONT 5mC Reads
+longLabel ONT 5mC Methylation on Individual Q100 Project Reads
+group methylation
+visibility full
+itemRgb on
+maxItems 10000
+maxWindowToDraw 500000
+bigDataUrl track_builds/methylation/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bb
+type bigBed 12
+priority 1
+
+track HiFi_5mC_Reads
+shortLabel HiFi 5mC Reads
+longLabel HiFi 5mC Methylation on Individual Q100 Project Reads
+group methylation
+visibility full
+itemRgb on
+maxItems 10000
+maxWindowToDraw 500000
+bigDataUrl track_builds/methylation/Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb.ft_extract_CpG.bb
+type bigBed 12
 priority 1

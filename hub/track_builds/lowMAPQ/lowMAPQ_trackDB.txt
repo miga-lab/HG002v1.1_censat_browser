@@ -1,5 +1,5 @@
 track ONT_lowMAPQ
-shortLabel ONT_lowMAPQ
+shortLabel ONT MAPQ<10
 longLabel Q100 ONT Data Coverage of Reads w/ MAPQ<10
 group map
 visibility hide
