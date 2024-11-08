@@ -12,7 +12,7 @@ include track_builds/CDR/CDR_trackDB.txt
 # include track_builds/fiberseq/fiberseq_trackDB.txt
 
 # dimelo annotations
-# include track_builds/dimelo/dimelo_trackDB.txt
+include track_builds/DiMeLo/DiMeLo_trackDB.txt
 
 # methylation
 include track_builds/methylation/methylation_trackDB.txt

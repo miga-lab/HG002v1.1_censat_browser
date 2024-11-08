@@ -2,9 +2,9 @@
 Browser setup for HG002 v1.1 CenSat annotation.
 
 ### Tracks I Need to Add Still:      
- * DiMeLo Tracks     
- * ipd bigwig       
+ * DiMeLo Tracks (modkit pileups) - [Do we need to filter better?]     
  * Fiberseq Data (nucleosome/msp/dinucleosome bigwigs)      
+ * ipd bigwig       
  * HorHap/CenHap          
  * HSat SubFamily      
 
