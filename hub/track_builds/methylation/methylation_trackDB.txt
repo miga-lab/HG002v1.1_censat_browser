@@ -6,6 +6,7 @@ visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
+viewLimits 0:100
 bigDataUrl track_builds/methylation/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5mC.bigwig
 assembly track_builds/methylation/ONT_5mC_pileup.as
 type bigWig
@@ -19,6 +20,7 @@ visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
+viewLimits 0:100
 bigDataUrl track_builds/methylation/Q100_ONT_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5hmC.bigwig
 assembly track_builds/methylation/ONT_5hmC_pileup.as
 type bigWig
@@ -32,6 +34,7 @@ visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
+viewLimits 0:100
 bigDataUrl track_builds/methylation/Q100_HiFi_5mC_HG002v1.1_winnowmap_q10_10kb_modkit5mC.bigwig
 assembly track_builds/methylation/HiFi_5mC_pileup.as
 type bigWig
