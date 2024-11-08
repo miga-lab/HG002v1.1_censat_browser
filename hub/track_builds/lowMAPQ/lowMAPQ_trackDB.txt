@@ -7,7 +7,7 @@ itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
 bigDataUrl track_builds/lowMAPQ/HG002v1.1_ONT_winnowmap_lowMAPQ.bigwig
-assembly track_builds/lowMAPQ/HG002v1.1_ONT_winnowmap_lowMAPQ.bigwig
+assembly track_builds/lowMAPQ/autosql/HG002v1.1_ONT_winnowmap_lowMAPQ.bigwig
 type bigWig
 priority 1
 
@@ -20,6 +20,6 @@ itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
 bigDataUrl track_builds/lowMAPQ/HG002v1.1_HiFi_winnowmap_lowMAPQ.bigwig
-assembly track_builds/lowMAPQ/HG002v1.1_HiFi_winnowmap_lowMAPQ.bedgraph
+assembly track_builds/lowMAPQ/autosql/HG002v1.1_HiFi_winnowmap_lowMAPQ.bedgraph
 type bigWig
 priority 1

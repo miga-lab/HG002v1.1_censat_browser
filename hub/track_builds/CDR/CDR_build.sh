@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Generated Using hmmCDR v0.2.0 w/ --output_all
+# Generated Using hmmCDR v0.2.1 w/ --output_all
 
 # ONT
 bedGraphToBigWig \
