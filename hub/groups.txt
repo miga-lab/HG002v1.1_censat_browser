@@ -5,21 +5,26 @@ defaultIsClosed 1
 
 name CenSat
 label Centromeric Satellite Annotations
-priority 1.5
+priority 1..25
 defaultIsClosed 0
 
 name alphaSat
 label Alpha Satellite Specific Annotations
-priority 1.75
+priority 1.50
 defaultIsClosed 0
 
-name map
-label Mapping and Sequencing
-priority 2
+name CDR
+label Centromere Dip Region (CDR) Annotations
+priority 1.75
 defaultIsClosed 0
 
 name methylation
 label Methylation
+priority 2
+defaultIsClosed 0
+
+name map
+label Mapping and Sequencing
 priority 2.25
 defaultIsClosed 0
 
@@ -28,6 +33,19 @@ label non-B DNA
 priority 2.25
 defaultIsClosed 0
 
+name fiberseq
+label Fiber-seq Tracks
+priority 3
+defaultIsClosed 0
+
+name dimelo
+label DiMeLo Tracks
+priority 3.25
+defaultIsClosed 0
+
+
+
+# Default/Example Track Groups:
 name genes
 label Genes and Gene Predictions
 priority 3
@@ -51,16 +69,6 @@ defaultIsClosed 1
 name compGeno
 label Comparative Genomics
 priority 6
-defaultIsClosed 1
-
-name fiberseq
-label Fiber-seq Tracks
-priority 7
-defaultIsClosed 1
-
-name DiMeLo
-label DiMeLo Tracks
-priority 8
 defaultIsClosed 1
 
 name x
