@@ -1,5 +1,5 @@
 track ONT_hmmCDR
-shortLabel hmmCDR ONT
+shortLabel ONT hmmCDR 
 longLabel hmmCDR from hmmCDR on ONT Q100 Data 
 group CDR
 visibility hide
@@ -11,7 +11,7 @@ type bigBed 9
 priority 1
 
 track ONT_subCDR
-shortLabel subCDR ONT hmmCDR
+shortLabel ONT subCDR hmmCDR
 longLabel subCDRs from hmmCDR on ONT Q100 Data 
 group CDR
 visibility hide
@@ -23,7 +23,7 @@ type bigBed 9
 priority 1
 
 track ONT_hmmCDR_priors
-shortLabel Prior CDR ONT hmmCDR
+shortLabel ONT Prior CDR hmmCDR
 longLabel Prior CDRs (Sliding Window of 1190) from hmmCDR on ONT Q100 Data 
 group CDR
 visibility hide
@@ -35,7 +35,7 @@ type bigBed 9
 priority 1
 
 track ONT_hmmCDR_Scores
-shortLabel ONT_hmmCDR_Scores
+shortLabel ONT hmmCDR Scores
 longLabel HMM CDR Probabilites from hmmCDR on ONT Q100 Data 
 group CDR
 visibility hide
@@ -48,7 +48,7 @@ type bigWig
 priority 1
 
 track HiFi_hmmCDR
-shortLabel hmmCDR HiFi
+shortLabel HiFi hmmCDR
 longLabel hmmCDR from hmmCDR on HiFi Q100 Data 
 group CDR
 visibility hide
@@ -60,7 +60,7 @@ type bigBed 9
 priority 1
 
 track HiFi_subCDR
-shortLabel subCDR HiFi hmmCDR
+shortLabel HiFi subCDR hmmCDR
 longLabel subCDRs from hmmCDR on HiFi Q100 Data 
 group CDR
 visibility hide
@@ -72,7 +72,7 @@ type bigBed 9
 priority 1
 
 track HiFi_hmmCDR_priors
-shortLabel Prior CDR HiFi hmmCDR
+shortLabel HiFi Prior CDR hmmCDR
 longLabel Prior CDRs (Sliding Window of 1190) from hmmCDR on HiFi Q100 Data 
 group CDR
 visibility hide
@@ -84,7 +84,7 @@ type bigBed 9
 priority 1
 
 track HiFi_hmmCDR_Scores
-shortLabel HiFi_hmmCDR_Scores
+shortLabel HiFi hmmCDR Scores
 longLabel HMM CDR Probabilites from hmmCDR on HiFi Q100 Data 
 group CDR
 visibility hide
