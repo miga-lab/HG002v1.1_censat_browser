@@ -6,6 +6,7 @@ visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
+viewLimits 0:100
 bigDataUrl track_builds/lowMAPQ/HG002v1.1_ONT_winnowmap_lowMAPQ.bigwig
 assembly track_builds/lowMAPQ/autosql/HG002v1.1_ONT_winnowmap_lowMAPQ.bigwig
 type bigWig
@@ -19,6 +20,7 @@ visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
+viewLimits 0:100
 bigDataUrl track_builds/lowMAPQ/HG002v1.1_HiFi_winnowmap_lowMAPQ.bigwig
 assembly track_builds/lowMAPQ/autosql/HG002v1.1_HiFi_winnowmap_lowMAPQ.bedgraph
 type bigWig
