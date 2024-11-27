@@ -4,11 +4,11 @@ longLabel ipdRatio from UW Data Plus Strand
 group nonB
 visibility hide
 itemRgb on
-maxItems 1000000
-maxWindowToDraw 500000000
+maxItems 10000
+maxWindowToDraw 50000
 viewLimits 0:10
-bigDataUrl track_builds/ipdratio/HG002_PacBio.ipdSummary.plus.bigwig
-assembly track_builds/ipdratio/autosql/UW_ipdratio.plus
+bigDataUrl track_builds/nonB_ipdratio/HG002_PacBio_UW.ipdratio_plus.bigwig
+assembly track_builds/nonB_ipdratio/autosql/UW_ipdratio.plus.as
 type bigWig
 priority 1
 
@@ -18,10 +18,10 @@ longLabel ipdRatio from UW Data Minus Strand
 group nonB
 visibility hide
 itemRgb on
-maxItems 1000000
-maxWindowToDraw 500000000
+maxItems 10000
+maxWindowToDraw 50000
 viewLimits 0:10
-bigDataUrl track_builds/ipdratio/HG002_PacBio.ipdSummary.minus.bigwig
-assembly track_builds/ipdratio/autosql/UW_ipdratio.minus
+bigDataUrl track_builds/nonB_ipdratio/HG002_PacBio_UW.ipdratio_minus.bigwig
+assembly track_builds/nonB_ipdratio/autosql/UW_ipdratio.minus.as
 type bigWig
 priority 1

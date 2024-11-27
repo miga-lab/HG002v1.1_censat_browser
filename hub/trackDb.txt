@@ -9,10 +9,15 @@ include track_builds/asat_pjalpha_cenpb/pjalpha_cenpb_trackDb.txt
 include track_builds/CDR/CDR_trackDB.txt
 
 # fiberseq annotations
-include track_builds/fiberseq/fiberseq_trackDB.txt
+# include track_builds/ont_fiberseq/ont_fiberseq_trackDB.txt
+# include track_builds/hifi_fiberseq/hifi_fiberseq_trackDB.txt
 
 # dimelo annotations
-# include track_builds/DiMeLo/DiMeLo_trackDB.txt
+# include track_builds/cenpa_dimelo/cenpa_dimelo_trackDB.txt
+# include track_builds/cenpc_dimelo/cenpc_dimelo_trackDB.txt
+# include track_builds/h3k9me3_dimelo/h3k9me3_dimelo_trackDB.txt
+# include track_builds/cenpa_age_dimelo/cenpa_age_dimelo_trackDB.txt
+# include track_builds/igg_dimelo/igg_dimelo_trackDB.txt
 
 # methylation
 include track_builds/methylation/methylation_trackDB.txt
@@ -22,4 +27,4 @@ include track_builds/lowMAPQ/lowMAPQ_trackDB.txt
 
 # non B-DNA 
 include track_builds/nonB_sequence/nonB_trackDB.txt
-# include track_builds/ipdratio/ipdratio_trackDB.txt
+include track_builds/nonB_ipdratio/ipdratio_trackDB.txt

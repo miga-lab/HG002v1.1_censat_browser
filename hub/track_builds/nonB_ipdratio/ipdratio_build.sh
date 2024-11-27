@@ -43,7 +43,7 @@ bedGraphToBigWig \
 	/public/groups/migalab/HG002v1.1_censat_browser/hub/hg002v1.1.fasta.2bit.sizes \
 	HG002_PacBio_UW.ipdratio_plus.bigwig
 bedGraphToBigWig \
-	beds/HG002_PacBio.ipdSummary_minus.bedgraph \
+	beds/HG002_PacBio_UW.ipdratio_minus.bedgraph \
 	/public/groups/migalab/HG002v1.1_censat_browser/hub/hg002v1.1.fasta.2bit.sizes \
-	HG002_PacBio.ipdSummary.minus.bigwig
+	HG002_PacBio_UW.ipdratio_minus.bigwig
 conda deactivate

@@ -31,5 +31,5 @@ itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
 bigDataUrl track_builds/cenSat/hg002v1.1.RepeatMasker.bb
-type bigBed 9
+type bigBed 4+6
 priority 1

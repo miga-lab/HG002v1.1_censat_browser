@@ -5,7 +5,7 @@ defaultIsClosed 1
 
 name CenSat
 label Centromeric Satellite Annotations
-priority 1..25
+priority 1.25
 defaultIsClosed 0
 
 name alphaSat
@@ -33,14 +33,29 @@ label non-B DNA
 priority 2.25
 defaultIsClosed 0
 
-name fiberseq
-label Fiber-seq Tracks
+name ont_fiberseq
+label NanoPore Fiber-seq Tracks
 priority 3
 defaultIsClosed 0
 
-name dimelo
-label DiMeLo Tracks
+name hifi_fiberseq
+label HiFi Fiber-seq Tracks
+priority 3.1
+defaultIsClosed 0
+
+name cenpa_dimelo
+label CENPA DiMeLo Tracks
 priority 3.25
+defaultIsClosed 0
+
+name cenpa_dimelo
+label CENPC DiMeLo Tracks
+priority 3.35
+defaultIsClosed 0
+
+name h3k9me3_dimelo
+label H3K9ME3 DiMeLo Tracks
+priority 3.45
 defaultIsClosed 0
 
 name old_v_young
@@ -48,7 +63,10 @@ label DiMeLo CENPA High vs. Low Passage Comparison Tracks
 priority 3.5
 defaultIsClosed 0
 
-
+name igg_dimelo
+label Igg DiMeLo Tracks
+priority 3.75
+defaultIsClosed 0
 
 # Default/Example Track Groups:
 name genes

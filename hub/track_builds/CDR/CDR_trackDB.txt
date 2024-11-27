@@ -31,7 +31,7 @@ itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
 bigDataUrl track_builds/CDR/HG002v1.1_ONT_hmmCDR_priorCDR.bb
-type bigBed 9
+type bigBed 3
 priority 1
 
 track ONT_hmmCDR_Scores
@@ -81,7 +81,7 @@ itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
 bigDataUrl track_builds/CDR/HG002v1.1_HiFi_hmmCDR_priorCDR.bb
-type bigBed 9
+type bigBed 3
 priority 1
 
 track HiFi_hmmCDR_Scores
