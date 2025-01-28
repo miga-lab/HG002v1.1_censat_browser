@@ -18,5 +18,5 @@ Follow the instructions in setup.sh in order:
 ## Notes
 This browser's files are currently stored on Courtyard. To view the browser navigate to the UCSC genome browser, click the **my data** dropdown then **trackhubs**. Got to **Connected Hubs** and then enter the following URL
 ```
-http://public.gi.ucsc.edu/~jmmenend/public_html/HG002v1.1_censat_browser/hub/hub.txt
+http://public.gi.ucsc.edu/~jmmenend/HG002v1.1_censat_browser/hub/hub.txt
 ```
